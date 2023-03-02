@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@500&display=swap');
+*{
+  padding:0;
+  margin: 0;
+  border:0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+#titulo-inicial, #titulo-inicial span{
+  font-family: 'Montserrat', sans-serif;
+}
+#passo1{
+  margin-left: 9.5vw;
+  font-size: 3em;
+  color: purple;
+  text-shadow: .2em 0 .3em ;
+}
+
+#passo2{
+  margin-left: 9.5vw;
+  font-size: 3em;
+  color: #191970;
+  text-shadow: .2em 0 .3em ;
+}
+
+#passo3{
+  margin-left: 9.5vw;
+  font-size: 3em;
+  color: purple;
+  text-shadow: .2em 0 .3em ;
+}
+
+#passo4{
+  margin-left: 9.5vw;
+  font-size: 4em;
+  color: #191970;
+  text-shadow: .2em 0 .3em;
+}
+#passo5{
+  margin-left: 8vw;
+  font-size: 4em;
+  color: #7CFC00;
+  text-shadow: .2em 0 .3em;
+}
+
+*::selection{
+  background-color: #cc886655;
+}
+body{
+  background-color: #11111a;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 0;       
+}
+
+@media(max-width:768px){
+  #passo5{
+    margin-left: 4.5vw;
+  }
+}
